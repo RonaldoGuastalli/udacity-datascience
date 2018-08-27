@@ -8,7 +8,8 @@ eclipse_dates = ['June 21, 2001', 'December 4, 2002', 'November 23, 2003',
 #primeira possibilidades
 tamanho_lista = len(eclipse_dates)
 eclipse_dates = eclipse_dates[(tamanho_lista)-3: ]
-print('resultado de eclipse_dates[(tamanho_lista)-3: ] -> ',eclipse_dates)
+print('resultado de eclipse_dates[(tamanho_lista)-3: ] -> ', eclipse_dates)
+
 #ou desta forma
 eclipse_dates[-3: ]
-print('resultado de eclipse_dates[-3: ] -> ',eclipse_dates)
+print('resultado de eclipse_dates[-3: ] -> ', eclipse_dates)

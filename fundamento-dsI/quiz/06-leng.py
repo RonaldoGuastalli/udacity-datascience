@@ -6,7 +6,7 @@ family_name = "Pitt"
 nome_completo = given_name+ ' ' + middle_names+ ' ' + family_name
 print(nome_completo)
 
-#todo: calcular o tamanho desse nome
+#calcular o tamanho desse nome
 name_length = len(nome_completo)
 
 # Confirme se o nome tem o número de caracteres permitido na Carteira de Motorista

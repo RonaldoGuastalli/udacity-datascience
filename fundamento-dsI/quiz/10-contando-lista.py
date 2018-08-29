@@ -4,7 +4,7 @@ eclipse_dates = ['June 21, 2001', 'December 4, 2002', 'November 23, 2003',
                  'March 9, 2016']
                  
                  
-# TODO: Modifique essa linha para que imprima (print) os últimos 3 elementos da lista
+# Modifique essa linha para que imprima (print) os últimos 3 elementos da lista
 #primeira possibilidades
 tamanho_lista = len(eclipse_dates)
 eclipse_dates = eclipse_dates[(tamanho_lista)-3: ]

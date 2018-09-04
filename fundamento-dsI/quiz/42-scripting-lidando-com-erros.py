@@ -34,3 +34,12 @@ for group in create_groups(range(32), 6):
 print("\nCreating 0 groups...")
 for group in create_groups(range(32), 0):
     print(list(group))
+
+
+
+s = input("enter com um inteiro: ")
+try:
+    i = int(s)
+    print("valor válido: {}".format(i))
+except Exception as err:
+    print(err)
